@@ -4,10 +4,10 @@
 #include <fcntl.h>
 
 struct png {
-    char magic[4];
-    char nbytes;
-    char version;
-    char abi;
+    unsigned char magic[4];
+    unsigned char nbytes;
+    unsigned char version;
+    unsigned char abi;
 };
 
 

@@ -11,21 +11,8 @@ int main(int argc, char*argv[argc+1]) {
             break;
         }
     }
-    premier=num;
-    while (premier!=1)
-    {
-        printf("%d ",premier);
-        if (premier%2==0)
-        {
-            premier=premier/2;
-        }
-        else
-        {
-            premier=3*premier+1;
-        }
-    }
-    printf("%d",premier);
+    if fib
+    
+    printf("%d",num);
     return 0;
-
-
 }
